@@ -338,25 +338,29 @@ h4{
 
 .donate-items{
   display: flex;
+  width: 80%;
   gap: 20px;
-  justify-content: center;
+  margin: 0 auto;
 }
 .donate-items p{
 text-align: center;
-vertical-align: middle;
 }
 
 .donate-amount{
+  padding: 50px 20px;
   width: 240px;
-  height: 128px;
   font-size: 40px;
   font-weight: bold;
   border: 1px solid #006A5050;
   background: white;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
+.donate-items .amount1{
+  background: #0fb9b150;
+}
 .other-amount{
+  padding: 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
