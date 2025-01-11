@@ -12,7 +12,10 @@ body{
   color: #0E0E0E;
   background: #f5f5f5;
 }
-
+main{
+  width: 1280px;
+  margin: 0 auto;
+}
 /* Header Design */
 header{
   width: 1280px;
@@ -57,10 +60,9 @@ header{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 1160px;
   margin: 0 auto;
   padding: 60px;
-  border-radius: 10px;
+  border-radius: 20px;
   background: #C6E4D6;
 }
 
@@ -98,7 +100,6 @@ color: #0E0E0E;
 /* Pillar of Bangladesh Section Design */
 
 .pillar-container{
-  width: 1280px;
   margin: 0 auto;
   padding: 80px 0px;
 }
@@ -155,7 +156,6 @@ h4{
 
 /* Vision of Future Section Design */
 .vision-container{
-  width: 1280px;
   margin: 0 auto;
 }
 
@@ -220,7 +220,6 @@ h4{
 
 /* Quotation Section Design */
 .quotation{
-  width: 1232px;
   margin: 32px auto;
   background: white;
   padding: 35px 24px;
@@ -240,4 +239,176 @@ h4{
 }
 .quotation p{
   color: #666666;
+}
+
+/* News Section Design */
+.news-container{
+  margin: 50px auto;
+}
+
+.news-section-first{
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  padding: 48px;
+  border-radius: 15px;
+  background: white;
+  margin-bottom: 20px;
+}
+
+.news-container h2{
+  font-size: 40px;
+  color: #0E0E0E;
+  margin-bottom: 15px;
+}
+
+.news-container p{
+  line-height: 25px;
+  color: #4e4e4e;
+}
+
+.img-box img{
+  width: 408px;
+  border-radius: 20px;
+}
+
+.news-section-second{
+  padding: 32px;
+}
+.news-section-second h3{
+  font-size: 32px;
+  font-weight: bold;
+  color: #292929;
+}
+.news-section-second p{
+  line-height: 25px;
+  color: #4e4e4e;
+}
+.news-section-second img{
+  width: 134px;
+  margin-top: 15px;
+}
+
+.date-time{
+  margin: 10px 0px;
+}
+
+.news-btn{
+  margin-top: 32px;
+  background: #20bf6b;
+}
+
+.news-btn:hover{
+  margin-top: 32px;
+  background: #20bf6b80;
+  border: 1px solid #006A50;
+}
+
+.news-section-second{
+  flex-direction: row-reverse;
+}
+
+.img-box img{
+  width: 408px;
+  border-radius: 20px;
+}
+
+/* Donate Section Design */
+
+.donate-parent{
+  margin: 50px 0px;
+}
+
+
+.donate-title-section{
+  text-align: center;
+}
+
+.donate-title-section h3{
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.donate-title-section p{
+  line-height: 25px;
+  color: #4e4e4e;
+  margin-bottom: 20px;
+}
+
+.donate-items{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.donate-items p{
+text-align: center;
+vertical-align: middle;
+}
+
+.donate-amount{
+  width: 240px;
+  height: 128px;
+  font-size: 40px;
+  font-weight: bold;
+  border: 1px solid #006A5050;
+  background: white;
+  border-radius: 5px;
+}
+
+.other-amount{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.amount-field{
+  width: 70%;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #006A5050;
+  border-radius: 5px;
+}
+
+
+/* NewsLetter Section Design */
+.newsletter-container{
+  text-align: center;
+  background: #C6E4D6;
+  padding: 80px 0px;
+  border-radius: 10px;
+}
+
+.newsletter-container h2{
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.newsletter-container p{
+  line-height: 25px;
+  color: #4e4e4e;
+}
+
+.newsletter-content .email-input{
+  margin: 20px 0px;
+  width: 50%;
+  padding: 15px 20px;
+  background: white;
+  border-style: none;
+  font-size: 16px;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.newsletter-content .submit-btn{
+  width: 15%;
+  padding: 15px 20px;
+  background: #006A50;
+  border-style: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 0px 5px 5px 0px;
+}
+.newsletter-container label{
+  padding: 13px 30px;
+  background: #006A50;
 }
