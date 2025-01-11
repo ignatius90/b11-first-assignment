@@ -206,11 +206,38 @@ h4{
 }
 
 .v-second .btn{
-background: #2d98da;
+  background: #2d98da;
+}
+.v-second .btn:hover{
+  background: #2d98da80;
 }
 .v-third .btn{
-background: #fa8231;
+  background: #fa8231;
+}
+.v-third .btn:hover{
+  background: #fa823180;
 }
 
-/* Qutation Section Design */
+/* Quotation Section Design */
+.quotation{
+  width: 1232px;
+  margin: 32px auto;
+  background: white;
+  padding: 35px 24px;
+  border-radius: 10px;
+  border: 1px solid #4e4e4e50;
+  background-image: url(/images/quote-bg.png);
+  background-repeat: no-repeat;
+  background-position: 25px 10px;
+}
 
+.quotation q{
+  line-height: 25px;
+}
+.quotation h4{
+  margin: 10px 0;
+  color: #4e4e4e;
+}
+.quotation p{
+  color: #666666;
+}
